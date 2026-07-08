@@ -73,10 +73,10 @@ Deployed the production application globally using Amazon S3.
 * **SPA Routing Support**: Configured `index.html` as both Index and Error documents.
 * **Access Policy**: Applied a public `s3:GetObject` bucket policy to allow global browser access.
 
-🔥 Key Features
-🔒 Secure JWT Authentication: Role-based access managed via Amazon Cognito User Pools and JWT-validated API endpoints.
-⚡ Decoupled Serverless Infrastructure: High-throughput, low-latency execution with 0% idle compute cost using AWS Lambda, API Gateway, and DynamoDB.
-💥 Atomic Stock Operations: Prevents race conditions during concurrent warehouse updates using DynamoDB UpdateExpression atomic counters.
-🚨 Automated Low-Stock Alerts: Real-time backend rule engine evaluates stock thresholds ($< 5$ units) and triggers animated UI alerts.
-📊 Visual Analytics Dashboard: Real-time inventory distribution charts powered by Recharts.
-🛡️ Least-Privilege IAM Security: Strictly scoped execution policies protecting resources at the ARN level.
+### 🔥Key Features
+*🔒 Secure JWT Authentication: Role-based access managed via Amazon Cognito User Pools and JWT-validated API endpoints.
+*⚡ Decoupled Serverless Infrastructure: High-throughput, low-latency execution with 0% idle compute cost using AWS Lambda, API Gateway, and DynamoDB.
+*💥 Atomic Stock Operations: Prevents race conditions during concurrent warehouse updates using DynamoDB UpdateExpression atomic counters.
+*🚨 Automated Low-Stock Alerts: Real-time backend rule engine evaluates stock thresholds ($< 5$ units) and triggers animated UI alerts.
+*📊 Visual Analytics Dashboard: Real-time inventory distribution charts powered by Recharts.
+*🛡️ Least-Privilege IAM Security: Strictly scoped execution policies protecting resources at the ARN level.
